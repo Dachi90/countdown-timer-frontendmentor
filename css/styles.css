@@ -140,6 +140,11 @@ body {
   /* color: hsl(237, 18%, 59%); */
 }
 
+.icons a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .icons i {
   padding: 0.5rem;
 }

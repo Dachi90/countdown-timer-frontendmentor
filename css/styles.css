@@ -145,6 +145,10 @@ body {
   color: inherit;
 }
 
+.icons a:hover {
+  color: hsl(345, 95%, 68%);
+}
+
 .icons i {
   padding: 0.5rem;
 }

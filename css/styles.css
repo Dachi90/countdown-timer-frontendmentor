@@ -40,6 +40,7 @@ body {
     "title title title title"
     "days  hours min   seconds";
   grid-column-gap: 10px;
+  transition: all 0.3s ease;
 }
 
 .title {
@@ -151,4 +152,34 @@ body {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 640px) {
+  .grid {
+    width: 80%;
+    grid-column-gap: 25px;
+  }
+}
+
+@media (min-width: 768px) {
+  .grid {
+    width: 70%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid {
+    width: 60%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .grid {
+    width: 50%;
+  }
+}
+@media (min-width: 1536px) {
+  .grid {
+    width: 40%;
+  }
 }

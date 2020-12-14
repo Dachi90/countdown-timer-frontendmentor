@@ -98,6 +98,11 @@ body {
   align-self: center;
   font-size: 3rem;
   color: hsl(345, 95%, 68%);
+  transition: transform 1s ease;
+}
+
+.flip {
+  transform: scale(0.8);
 }
 
 .container-bottom {
